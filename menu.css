@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap');
+
+*{
+    margin: 0;
+}
+body{
+    font-family: 'Instrument Serif', serif;
+}
+
+.menu{
+    padding: 8px;
+    background-color: black;
+    display: block;
+    position: fixed;
+    width: 100vw;
+    height: 4vh;
+}
+.btn_menu{
+    margin-right: 8vw;
+    background-color: black;
+    color: whitesmoke;
+    border: 1px solid black;
+}
+
+.cabecalho{
+    padding-top: 4vh;
+}
+
+.navbar{
+    padding-top: 8vh;
+    top: 10.5vh;
+    width: 15vw;
+    left: -200vw;
+    height: 20vh;
+    position: absolute;
+    background-color: black;
+    color: whitesmoke;
+    transition: 200ms;
+    cursor: pointer;
+}
+
+.navbar_ativo{
+    left: 0;
+    transition: 200ms;
+}
+
+
+a:visited{
+    background-color: black;
+    color: white;
+}
+
+.menu_itens {
+    list-style: none;
+}
+
+.menu_itens a{
+    text-decoration: none;
+}
+
